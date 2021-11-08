@@ -1,0 +1,122 @@
+/*
+selecteur(s) {
+    propriété : valeur;
+}
+*/
+@font-face {
+    font-family: "karrik-Regular";
+    src: url("typo/Karrik-Regular.woff2") format("woff2"),
+    url("typo/Karrik-Regular.woff") format("woff");
+}
+body{
+background-color: #b0b0b0
+
+}
+.description {
+    font-family: "Karrik-Regular";
+    color: rgb(238, 255, 0);
+    writing-mode: vertical-rl;
+text-orientation: mixed;
+font-size: 40px;
+top:160px;
+margin-left:20px ;
+position: fixed;
+}
+img{
+height: auto;
+width: 100%;
+}
+.logo{
+    position: fixed;
+    max-width: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+nav{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    top: O;
+}
+.contact{
+text-align: right;
+font-family:"Karrik-Regular";
+padding-right: 20px;
+color: yellow;
+}
+.contact2{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-family:"Karrik-Regular";
+    font-size: 25px;
+    
+}
+.grid-main{
+width: 87%;
+margin-left: 13%;
+margin-top: 15px;
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr ;
+gap: 10px;
+}
+.projet{
+ max-width: 350px;
+ height: auto;
+}
+.grid-projet{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+gap: 10px;
+}
+.imageprojet{
+
+}
+.description-projet{
+    display: block;
+    position: fixed;
+    left: 60%;
+    top: 30%;
+}
+
+li ul{
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.contact-description{
+    display: block;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    justify-self: center;
+}
+
+@media (max-width:600px) {
+
+    .grid{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr ;
+    gap: 10px;
+    }
+
+    .description {
+        font-family: "Karrik-Regular";
+        color: rgb(238, 255, 0);
+        writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    font-size: 40px;
+    top:160px;
+    margin-left:20px ;
+    position: fixed;
+    }
+
+}
